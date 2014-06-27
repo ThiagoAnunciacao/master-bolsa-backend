@@ -1,0 +1,9 @@
+development:
+  adapter: mysql2
+  database: master_bolsa_development
+  reaping_frequency: 10
+  pool: 30
+
+test:
+  adapter: mysql2
+  database: master_bolsa_test

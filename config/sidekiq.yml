@@ -1,0 +1,13 @@
+---
+:verbose: false
+:pidfile: ./tmp/pids/sidekiq.pid
+:concurrency: 10
+:queues:
+  - quotes_load
+
+staging:
+  :verbose: true
+
+development:
+  :concurrency: 4
+  :verbose: true
